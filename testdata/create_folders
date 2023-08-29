@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for i in {1..17}; do
+    touch "expected_output${i}.txt"
+    touch "input${i}.txt"
+done
